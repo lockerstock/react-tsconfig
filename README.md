@@ -1,15 +1,15 @@
-# @lockerstock/react-ts-config
+# @lockerstock/react-tsconfig
 
 A TypeScript config basis. Includes, tsconfig, tslint, tslint.commit, and prettier configurations.
 
 ## Installation
 
 ```
-npm install --save-dev @lockerstock/react-ts-config
+npm install --save-dev @lockerstock/react-tsconfig
 ```
 
 ```
-yarn add @lockerstock/react-ts-config --dev
+yarn add @lockerstock/react-tsconfig --dev
 ```
 
 _This tool has peer dependencies and will download them as needed._
@@ -21,9 +21,9 @@ Reference it in `package.json` using the `prettier` property:
 ```json
 {
 	"name": "my-projects-name",
-	"prettier": "@lockerstock/react-ts-config",
+	"prettier": "@lockerstock/react-tsconfig",
 	"devDependencies": {
-		"@lockerstock/react-ts-config": "^1.0.0",
+		"@lockerstock/react-tsconfig": "^1.0.0",
 		"husky": "^4.3.0",
 		"lint-staged": "^10.3.0",
 		"prettier": "^2.1.1"
@@ -46,7 +46,7 @@ Extend the config in `tsconfig.json`
 
 ```json
 {
-	"extends": "@lockerstock/react-ts-config/tslint.json"
+	"extends": "@lockerstock/react-tsconfig/tslint.json"
 }
 ```
 
@@ -54,7 +54,7 @@ Extend the config in `tslint.json`
 
 ```json
 {
-	"extends": "@alehechlockerstockka/react-ts-config/tslint.json"
+	"extends": "@alehechlockerstockka/react-tsconfig/tslint.json"
 }
 ```
 
@@ -62,7 +62,7 @@ Extend the config in `tslint.commit.json`
 
 ```json
 {
-	"extends": ["@lockerstock/react-ts-config/tslint.commit.json"]
+	"extends": ["@lockerstock/react-tsconfig/tslint.commit.json"]
 }
 ```
 
