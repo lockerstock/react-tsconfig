@@ -1,6 +1,6 @@
 {
 	"name": "@lockerstock/react-tsconfig",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A TypeScript config basis. Includes, tsconfig, tslint, tslint.commit, and prettier configurations.",
 	"main": ".",
 	"files": [
@@ -12,7 +12,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:lockerstock/react-ts-config.git"
+		"url": "git@github.com:lockerstock/react-tsconfig.git"
 	},
 	"keywords": [
 		"eslint",
