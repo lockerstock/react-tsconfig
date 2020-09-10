@@ -1,6 +1,6 @@
 {
-	"name": "@lockerstock/react-ts-config",
-	"version": "1.0.1",
+	"name": "@lockerstock/react-tsconfig",
+	"version": "1.0.0",
 	"description": "A TypeScript config basis. Includes, tsconfig, tslint, tslint.commit, and prettier configurations.",
 	"main": ".",
 	"files": [
