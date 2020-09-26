@@ -8,7 +8,8 @@
 		".vscode",
 		"tsconfig.json",
 		"tslint.json",
-		"tslint.commit.json"
+		"tslint.commit.json",
+		"prepare.js"
 	],
 	"repository": {
 		"type": "git",
