@@ -50,7 +50,12 @@ Extend the config in `tsconfig.json`
 
 ```json
 {
-	"extends": "@lockerstock/react-tsconfig/tslint.json"
+	"extends": "@lockerstock/react-tsconfig/tsconfig.json",
+	"compilerOptions": {
+		"rootDir": "./src",
+		"baseUrl": "./src"
+	},
+	"include": ["src"]
 }
 ```
 
