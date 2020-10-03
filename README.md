@@ -21,15 +21,19 @@ Reference it in `package.json` using the `prettier` property:
 ```json
 {
 	"name": "my-projects-name",
-	"prettier": "@lockerstock/react-tsconfig",
+	"prettier": "@lockerstock/react-tsconfig/.prettierrc.json",
 	"devDependencies": {
 		"@lockerstock/react-tsconfig": "^1.0.0",
 		"husky": "^4.3.0",
 		"lint-staged": "^10.3.0",
-		"prettier": "^2.1.1"
+		"prettier": "^2.1.1",
+		"tslint": "^6.1.3",
 	},
 	"scripts": {
-		"lint": "tslint --project tsconfig.json -c tslint.commit.json --fix"
+		"lint": "tslint --project tsconfig.json -c tslint.commit.json --fix",
+		"pregit": "git add *",
+		"git": "git commit",
+		"postgit": "git push"
 	},
 	"lint-staged": {
 		"src/**/*.{ts,tsx}": ["yarn lint", "prettier --write"]
